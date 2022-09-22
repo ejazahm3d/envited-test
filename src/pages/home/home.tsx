@@ -1,3 +1,9 @@
+import { HeroSection } from "./_hero-section";
+
 export const HomePage = () => {
-  return <>Home Page</>;
+  return (
+    <>
+      <HeroSection />
+    </>
+  );
 };
