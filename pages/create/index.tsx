@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import { MainLayout } from "../../src/layouts/main-layout";
 import { CreateEventPage } from "../../src/pages/create-event/create-event";
 
-const Home: NextPage = () => {
+const Create: NextPage = () => {
   return (
     <MainLayout>
       <CreateEventPage />
@@ -10,4 +10,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default Create;

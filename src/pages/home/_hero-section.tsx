@@ -7,7 +7,11 @@ const heroSectionStyles = {
     fontSize: "36px",
     fontWeight: "bold",
     lineHeight: "1",
-    filter: "drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))",
+    filter: {
+      xs: "drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))",
+      md: "none",
+      lg: "drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))",
+    },
   },
 };
 
